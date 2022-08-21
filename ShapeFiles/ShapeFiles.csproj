@@ -1,0 +1,139 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ShapeFiles.csproj.DotSettings" />
+    <None Remove="ShapeFiles\Resources\USA_Cities_Towns.dbf" />
+    <None Remove="ShapeFiles\Resources\USA_Cities_Towns.prj" />
+    <None Remove="ShapeFiles\Resources\USA_Cities_Towns.sbn" />
+    <None Remove="ShapeFiles\Resources\USA_Cities_Towns.sbx" />
+    <None Remove="ShapeFiles\Resources\USA_Cities_Towns.shp" />
+    <None Remove="ShapeFiles\Resources\USA_Cities_Towns.shp.xml" />
+    <None Remove="ShapeFiles\Resources\USA_Cities_Towns.shx" />
+    <None Remove="ShapeFiles\Resources\USA_Counties.dbf" />
+    <None Remove="ShapeFiles\Resources\USA_Counties.prj" />
+    <None Remove="ShapeFiles\Resources\USA_Counties.sbn" />
+    <None Remove="ShapeFiles\Resources\USA_Counties.sbx" />
+    <None Remove="ShapeFiles\Resources\USA_Counties.shp" />
+    <None Remove="ShapeFiles\Resources\USA_Counties.shp.xml" />
+    <None Remove="ShapeFiles\Resources\USA_Counties.shx" />
+    <None Remove="ShapeFiles\Resources\USA_Roads.dbf" />
+    <None Remove="ShapeFiles\Resources\USA_Roads.prj" />
+    <None Remove="ShapeFiles\Resources\USA_Roads.sbn" />
+    <None Remove="ShapeFiles\Resources\USA_Roads.sbx" />
+    <None Remove="ShapeFiles\Resources\USA_Roads.shp" />
+    <None Remove="ShapeFiles\Resources\USA_Roads.shp.xml" />
+    <None Remove="ShapeFiles\Resources\USA_Roads.shx" />
+    <None Remove="ShapeFiles\Resources\USA_States.dbf" />
+    <None Remove="ShapeFiles\Resources\USA_States.prj" />
+    <None Remove="ShapeFiles\Resources\USA_States.sbn" />
+    <None Remove="ShapeFiles\Resources\USA_States.sbx" />
+    <None Remove="ShapeFiles\Resources\USA_States.shp" />
+    <None Remove="ShapeFiles\Resources\USA_States.shp.xml" />
+    <None Remove="ShapeFiles\Resources\USA_States.shx" />
+    <None Remove="ShapeFiles\Resources\World_Cities.dbf" />
+    <None Remove="ShapeFiles\Resources\World_Cities.prj" />
+    <None Remove="ShapeFiles\Resources\World_Cities.sbn" />
+    <None Remove="ShapeFiles\Resources\World_Cities.sbx" />
+    <None Remove="ShapeFiles\Resources\World_Cities.shp" />
+    <None Remove="ShapeFiles\Resources\World_Cities.shp.xml" />
+    <None Remove="ShapeFiles\Resources\World_Cities.shx" />
+    <None Remove="ShapeFiles\Resources\World_Countries.dbf" />
+    <None Remove="ShapeFiles\Resources\World_Countries.prj" />
+    <None Remove="ShapeFiles\Resources\World_Countries.sbn" />
+    <None Remove="ShapeFiles\Resources\World_Countries.sbx" />
+    <None Remove="ShapeFiles\Resources\World_Countries.shp" />
+    <None Remove="ShapeFiles\Resources\World_Countries.shp.xml" />
+    <None Remove="ShapeFiles\Resources\World_Countries.shx" />
+    <None Remove="ShapeFiles\Resources\World_Hydrography.dbf" />
+    <None Remove="ShapeFiles\Resources\World_Hydrography.prj" />
+    <None Remove="ShapeFiles\Resources\World_Hydrography.sbn" />
+    <None Remove="ShapeFiles\Resources\World_Hydrography.sbx" />
+    <None Remove="ShapeFiles\Resources\World_Hydrography.shp" />
+    <None Remove="ShapeFiles\Resources\World_Hydrography.shx" />
+    <None Remove="ShapeFiles\Resources\World_Lakes.dbf" />
+    <None Remove="ShapeFiles\Resources\World_Lakes.prj" />
+    <None Remove="ShapeFiles\Resources\World_Lakes.sbn" />
+    <None Remove="ShapeFiles\Resources\World_Lakes.sbx" />
+    <None Remove="ShapeFiles\Resources\World_Lakes.shp" />
+    <None Remove="ShapeFiles\Resources\World_Lakes.shx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Cities_Towns.dbf" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Cities_Towns.prj" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Cities_Towns.sbn" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Cities_Towns.sbx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Cities_Towns.shp" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Cities_Towns.shp.xml" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Cities_Towns.shx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Counties.dbf" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Counties.prj" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Counties.sbn" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Counties.sbx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Counties.shp" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Counties.shp.xml" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Counties.shx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Roads.dbf" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Roads.prj" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Roads.sbn" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Roads.sbx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Roads.shp" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Roads.shp.xml" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_Roads.shx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_States.dbf" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_States.prj" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_States.sbn" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_States.sbx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_States.shp" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_States.shp.xml" />
+    <EmbeddedResource Include="ShapeFiles\Resources\USA_States.shx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Cities.dbf" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Cities.prj" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Cities.sbn" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Cities.sbx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Cities.shp" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Cities.shp.xml" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Cities.shx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Countries.dbf" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Countries.prj" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Countries.sbn" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Countries.sbx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Countries.shp" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Countries.shp.xml" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Countries.shx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Hydrography.dbf" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Hydrography.prj" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Hydrography.sbn" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Hydrography.sbx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Hydrography.shp" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Hydrography.shx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Lakes.dbf" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Lakes.prj" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Lakes.sbn" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Lakes.sbx" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Lakes.shp" />
+    <EmbeddedResource Include="ShapeFiles\Resources\World_Lakes.shx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ShapeFiles\DataResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ShapeFiles\DataResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DataResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
